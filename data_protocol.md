@@ -43,7 +43,7 @@ The topic is the full name of the sending Component. ([#60](https://github.com/p
 
 ### Header
 
-Similar to the {ref}`control protocol header<control_protocol.md#message_composition>`, the header consists in
+Similar to the {ref}`control protocol header <control_protocol.md#message-composition>`, the header consists in
 1. UUIDv7
 2. a one byte `message_type` (`0` not defined, `1` JSON, `>127` user defined)
 
